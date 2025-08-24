@@ -33,7 +33,7 @@ export const validatePageOne = () => {
 
      // Number containing alphabets or non-numeric characters
     it("should reject non-numeric characters", () => {
-      const isValid = /^[6-9]\d{9}$/.test("98ab56cd10");
+      const isValid = /^[6-9]\d{9}$/.test("98ab56cd11");
       expect(isValid).to.eq(false);
     });
   });
